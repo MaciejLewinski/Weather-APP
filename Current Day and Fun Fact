@@ -14,6 +14,8 @@
 const currentDay = document.querySelector('.current-day')
 const funFact = document.querySelector('.fun-fact')
 
+// To be replaced by API in future
+
 const facts = [
     'Krokodyl nie potrafi wystawić języka.',
     'Każdy człowiek spędził około pół godziny jako pojedyncza komórka.',
