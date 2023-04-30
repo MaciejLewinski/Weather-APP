@@ -7,9 +7,13 @@ const weather = document.querySelector(".weather");
 const temperature = document.querySelector(".temperature");
 const humidity = document.querySelector(".humidity");
 
+// API CONNECTION
+
 const API_LINK = "https://api.openweathermap.org/data/2.5/weather?q=";
 const API_KEY = "&appid=e0669c11d2cedc30e41e36f96e264a9f";
 const API_UNITS = "&units=metric";
+
+---------------------------------------
 
 const getWeather = () => {
 	const city = input.value || "Wrocław;
