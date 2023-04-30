@@ -59,3 +59,6 @@ const enterKeyCheck = (e) => {
 getWeather();
 input.addEventListener('keyup', enterKeyCheck)
 button.addEventListener("click", getWeather);
+
+
+dadasd
